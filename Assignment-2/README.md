@@ -1,11 +1,3 @@
-# INFO670
-Assignments and resources for INFO670 - Cross-platform Mobile Development
-
-![alt text](image.png)
-
-![alt text](first_app.jpg)
-
-
 # Grocery List Manager
 React Native app to manage grocery lists.
 
@@ -29,10 +21,17 @@ React Native app to manage grocery lists.
 
 ## Screenshots
 1. **Empty List**:
+
    ![Empty List](img1.jpg)
+
 2. **Adding an Item**:
+
    ![Adding Item](img2.jpg)
+
 3. **List with Marked Items**:
+
    ![List with Marked Items](img3.jpg)
+
 3. **Empty input Error**:
+
    ![Empty input Error](img4.jpg)
