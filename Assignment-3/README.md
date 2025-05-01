@@ -27,13 +27,17 @@ Users interested in viewing images and maintaining personal profile data.
 ## Screenshots
 
 1. **Gallery Screen**:
+
    ![Gallery Screen](img1.jpg)
 
 2. **Picture Viewer Screen**:
+
    ![Picture Viewer](img2.jpg)
 
 3. **Profile Screen**:
+
    ![Profile Screen](img3.jpg)
 
 4. **Profile Saved Screen**:
+
    ![Profile Screen](img4.jpg)
