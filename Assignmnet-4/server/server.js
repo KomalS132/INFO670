@@ -1,11 +1,14 @@
 import express from 'express';
 import mysql from 'mysql2';
 import bodyParser from 'body-parser';
+import cors from 'cors';
 import 'dotenv/config';
 
 const app = express();
-const port = 3000;
+const port = process.env.PORT || 3000;
 
+// Enable CORS for all routes
+app.use(cors());
 app.use(bodyParser.json());
 
 const connection = mysql.createConnection({
@@ -72,4 +75,6 @@ app.get('/getRecipients', (req, res) => {
 
 app.listen(port, () => {
   console.log(`Server running on port ${port}`);
+  console.log(`Make sure to update your .env file with the following variables:`);
+  console.log(`PORT - Server port (optional, defaults to 3000)`);
 });
